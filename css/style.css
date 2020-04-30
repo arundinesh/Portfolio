@@ -17,7 +17,18 @@
 }
 body{
     background:#d0d3d9;
-}
+    animation: fadeInAnimation ease 3s; 
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards; 
+    } 
+    @keyframes fadeInAnimation { 
+        0% { 
+            opacity: 0; 
+        } 
+        100% { 
+            opacity: 1; 
+        } 
+    } 
 #Name{
     font-family: serif;
     border-bottom: 1px ridge black;
@@ -37,11 +48,13 @@ blink  {
     margin-top: 10px;
 }   
 .container-body{
-    border-left: 1px solid white;
-    border-right:1px solid white;
+    border-left: 1px solid #757474;
+    border-right:1px solid #757474;
 } 
 
 .btn-social-icon{
     
     border: 2px solid;
 }
+
+ 
