@@ -17,6 +17,8 @@
 }
 body{
     background:#d0d3d9;
+      margin: 0;
+      padding: 0;
     animation: fadeInAnimation ease 3s; 
     animation-iteration-count: 1; 
     animation-fill-mode: forwards; 
@@ -56,5 +58,11 @@ blink  {
     
     border: 2px solid;
 }
-
- 
+.swiper-container {
+    width: 10%;
+    height: 10%;
+  }
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+  }
